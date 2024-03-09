@@ -6,7 +6,7 @@ class Nav extends React.Component {
         return (
             <div className="topnav">
                 <div className="nav-pc">
-                    <a href="#home" className="active">TRANG CHỦ</a>
+                    <a href="#1" className="active">TRANG CHỦ</a>
                     <a href="#news">THÔNG TIN</a>
                     <a href="#contact">SỞ THÍCH</a>
                     <div className="dropdown">
