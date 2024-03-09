@@ -1,26 +1,46 @@
 import React from "react";
 import './Nav.css';
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 class Nav extends React.Component {
     render() {
         return (
-            <div className="container">
-                <div className="navbar">
-                    <ul className="nav-pc">
-                        <li><a href="#home">TRANG CHỦ</a></li>
-                        <li><a href="#news">THÔNG TIN</a></li>
-                        <li><a href="#news">SỞ THÍCH</a></li>
-                        <li className="dropdown">
-                            <a href="#" className="dropbtn">KHÁC</a>
-                            <div className="dropdown-content">
-                                <a href="#1">Link 1</a>
-                                <a href="#2">Link 2</a>
-                                <a href="#3">Link 3</a>
-                            </div>
-                        </li>
-                        <div className="bar-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
+            <div className="topnav">
+                <div className="nav-pc">
+                    <a href="#home" className="active">TRANG CHỦ</a>
+                    <a href="#news">THÔNG TIN</a>
+                    <a href="#contact">SỞ THÍCH</a>
+                    <div className="dropdown">
+                        <button className="dropbtn">KHÁC
+                            <i className="fa fa-caret-down"></i>
+                        </button>
+                        <div className="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
                         </div>
-                    </ul>
+                    </div>
+                </div>
+                <label htmlFor="show-nav-mobile" className="nav-btn">
+                    <img src="../img/bars.png" />
+                </label>
+
+                <input type="checkbox" hidden className="nav-input" name="" id="show-nav-mobile" />
+
+                <label htmlFor="show-nav-mobile" className="nav-overlay"></label>
+
+                <div className="nav-mobile">
+                    <a href="#home" className="active">TRANG CHỦ</a>
+                    <a href="#news">THÔNG TIN</a>
+                    <a href="#contact">SỞ THÍCH</a>
+                    <div className="dropdown-mobile">
+                        <button className="dropbtn-mobile">KHÁC
+                        </button>
+                        <div className="dropdown-content-mobile">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
