@@ -9,7 +9,6 @@
 .topnav a {
   font-family:Arial, Helvetica, sans-serif;
   float: left;
-  font-weight: bold;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -96,6 +95,7 @@
 
 .nav-mobile a{
   color: black;
+  width: 71.5%;
 }
 
 .nav-mobile{
@@ -103,12 +103,16 @@
   top: 0;
   bottom: 0;
   left: 0;
-  width: 180px;
+  width: 140px;
   max-width: 100%;
   background-color: white;
   transform: translateX(-100%);
   opacity: 0;
   transition: transform linear 0.3s, opacity linear 0.3s;
+}
+
+.nav-mobile a:hover{
+  background-color: #b2b2b2;
 }
 
 .nav-input:checked ~ .nav-overlay {

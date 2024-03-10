@@ -1,13 +1,13 @@
 
 .container{
-    padding-top: 100px;
+padding-top: 100px;
    color: #fff;
    display: flex;
    padding-bottom: 200px;
 }
 
- .container_top hr{
-    width: 70%;
+.container_top hr{
+    width: 85%;
     height: 2px;
     background-color: black;
     margin-bottom: 50px;
@@ -20,14 +20,13 @@
     text-align: left;
 }
 
-.content_left h1{
-    width: 70%;
-    font-size: 40px;
+.my_name{
+    font-size: 50px;
 }
 
-.content_left h2{
-    width: 60%;
-    font-size: 18px;
+.my_style{
+    color: #bcbcbc;
+    font-size: 24px;
 }
 
 .content_right{

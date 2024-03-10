@@ -8,16 +8,16 @@ class Home extends React.Component {
                 <div className="container_top">
                     <div className="container" id="home">
                         <div className="content_left">
-                            <a><h1>I'm Nguyen Hoang Nhan, a Web Developer.</h1></a>
-                            <h2>Tôi là một người bình thường, không có sở thích lập trình web cũng như lập trình nhưng vì tương lai sau này nên
+                            <p className="my_name">I'm Nguyen Hoang Nhan, a Web Developer.</p>
+                            <p className="my_style">Tôi là một người bình thường, không có sở thích lập trình web cũng như lập trình nhưng vì tương lai sau này nên
                                 vẫn cố gắng học tập từng ngày để không phụ lòng công ơn gia đình và bạn bè!!!
-                            </h2>
+                            </p>
                         </div>
                         <div className="content_right">
                             <img src="../img/(1).jpg" />
                         </div>
                     </div>
-                    <hr></hr>
+                    <hr id="about"></hr>
                 </div>
             </>
         )

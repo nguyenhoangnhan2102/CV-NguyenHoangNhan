@@ -1,0 +1,100 @@
+
+.title_about{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.about{
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    height: 500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container_about_left{
+    position: relative;
+    width: 60%;
+    left: 200px;
+    text-align: left;
+}
+
+.container_about_left .name{
+    padding-bottom: 15px;
+}
+
+.container_about_left .age{
+    padding-bottom: 15px;
+}
+
+.container_about_left .address{
+    padding-bottom: 15px;
+}
+
+.container_about_left .favourite{
+    padding-bottom: 10px;
+}
+
+.container_about_left .dislike{
+    position: relative;
+    display: flex;
+}
+
+.container_about_left .dislike p{
+    color: rgb(251, 75, 75);
+}
+
+.container_about_left span{
+    position: absolute;
+    top: 25px;
+    left: 4rem;
+    color: white;
+}
+
+.container_about_right{
+    width: 40%;
+    position: relative;
+    display: flex;
+}
+
+.img_about img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.img_background{
+    position: absolute;
+    background-color: rgb(111, 111, 111);
+    width: 300px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+}
+
+.favourite{
+    padding-top: 15px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.favourite_content{
+    margin-top: 15px;
+    color: rgb(0, 209, 0);
+    width: 100px;
+}
+
+.favourite_icon img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+    border-color: black;
+}

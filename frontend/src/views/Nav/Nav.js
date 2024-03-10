@@ -7,7 +7,7 @@ class Nav extends React.Component {
             <div className="topnav" id="nav">
                 <div className="nav-pc">
                     <a href="#home" className="active">TRANG CHỦ</a>
-                    <a href="#info">THÔNG TIN</a>
+                    <a href="#about">THÔNG TIN</a>
                     <a href="#study">HỌC TẬP</a>
                     <a href="#skill">KỸ NĂNG</a>
                     <a href="#another">KHÁC</a>
@@ -32,7 +32,7 @@ class Nav extends React.Component {
 
                 <div className="nav-mobile">
                     <a href="#home" className="active">TRANG CHỦ</a>
-                    <a href="#info">THÔNG TIN</a>
+                    <a href="#about">THÔNG TIN</a>
                     <a href="#study">HỌC TẬP</a>
                     <a href="#skill">KỸ NĂNG</a>
                     <a href="#another">KHÁC</a>
