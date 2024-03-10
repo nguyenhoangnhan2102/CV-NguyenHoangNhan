@@ -1,0 +1,61 @@
+
+.container_skill{
+    padding-bottom: 50px;
+}
+
+.title_skill{
+    padding: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_icon_top{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container_icon_bottom{
+    justify-content: center;
+    display: flex;
+}
+
+.container_icon{
+    justify-content: center;
+}
+
+.my_skill img{
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.my_skill{
+    cursor: pointer;
+    margin: 20px;
+    position: relative;
+    background-color: rgb(129, 129, 129);
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.name_tool{
+    position: absolute;
+    color: black;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my_skill:hover{
+    background-color: rgb(113, 110, 110);
+}
+
+hr{
+    background-color: black;
+    border-color: black;
+    height: 3px;
+}

@@ -40,7 +40,7 @@ class About extends React.Component {
                         </div>
                     </div>
                 </div>
-                <hr></hr>
+                <hr id="skill"></hr>
             </>
         )
     }

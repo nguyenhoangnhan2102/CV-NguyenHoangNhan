@@ -4,6 +4,7 @@ import Nav from './Nav/Nav';
 import Home from './Home/Home';
 import Footer from './Footer/Footer';
 import About from './About/About';
+import Skill from './Skill/Skill';
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
         <Nav />
         <Home />
         <About />
+        <Skill />
         <Footer />
-
       </header>
     </div>
   );

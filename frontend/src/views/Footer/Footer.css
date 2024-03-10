@@ -1,8 +1,8 @@
 .container-footer{
     background-color: rgb(80, 80, 80);
     height: auto;
-    border-top: 3px solid;
-    border-color: rgb(140, 140, 140);
+    border-top: 5px solid;
+    border-color: rgb(27, 24, 24);
 }
 
 .column-1{
@@ -46,16 +46,13 @@
 
 .container_column{
     padding: 10px;
+    padding-top: 50px;
     display: flex;
     padding-bottom: 50px;
 }
 
 hr{
     width: 90%;
-}
-
-.copy_right{
-    height: 100px;
 }
 
 .copy_right_content{

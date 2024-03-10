@@ -1,6 +1,9 @@
 .topnav {
+  position:fixed;
+  left: 0;
+  right: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #000000;
   width: 80%;
   margin: auto;
   border-radius: 5px;
@@ -68,12 +71,6 @@
   display: block;
 }
 
-#nav {
-    position:fixed;
-    left: 0;
-    right: 0;
-}
-
 .nav-btn img{
   height: 28px;
   width: 28px;
@@ -96,6 +93,7 @@
 .nav-mobile a{
   color: black;
   width: 71.5%;
+  text-align: left;
 }
 
 .nav-mobile{
