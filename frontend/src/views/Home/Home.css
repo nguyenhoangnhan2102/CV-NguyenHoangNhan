@@ -1,8 +1,43 @@
 
 .container{
-    color: black;
+    padding-top: 100px;
+   color: #fff;
+   display: flex;
+   padding-bottom: 200px;
 }
 
-.content-1{
-    margin-bottom: 50rem;
+ .container_top hr{
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 50px;
+    border-color: black;
+}
+
+.content_left{
+    margin-left: 150px;
+    width: 50%;
+    text-align: left;
+}
+
+.content_left h1{
+    width: 70%;
+    font-size: 40px;
+}
+
+.content_left h2{
+    width: 60%;
+    font-size: 18px;
+}
+
+.content_right{
+    width: 50%;
+    padding: 20px;
+}
+
+.content_right img{
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
 }

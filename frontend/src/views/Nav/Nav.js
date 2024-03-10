@@ -4,12 +4,14 @@ import './Nav.css';
 class Nav extends React.Component {
     render() {
         return (
-            <div className="topnav">
+            <div className="topnav" id="nav">
                 <div className="nav-pc">
-                    <a href="#1" className="active">TRANG CHỦ</a>
-                    <a href="#news">THÔNG TIN</a>
-                    <a href="#contact">SỞ THÍCH</a>
-                    <div className="dropdown">
+                    <a href="#home" className="active">TRANG CHỦ</a>
+                    <a href="#info">THÔNG TIN</a>
+                    <a href="#study">HỌC TẬP</a>
+                    <a href="#skill">KỸ NĂNG</a>
+                    <a href="#another">KHÁC</a>
+                    {/* <div className="dropdown">
                         <button className="dropbtn">KHÁC
                             <i className="fa fa-caret-down"></i>
                         </button>
@@ -18,7 +20,7 @@ class Nav extends React.Component {
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <label htmlFor="show-nav-mobile" className="nav-btn">
                     <img src="../img/bars.png" />
@@ -30,9 +32,11 @@ class Nav extends React.Component {
 
                 <div className="nav-mobile">
                     <a href="#home" className="active">TRANG CHỦ</a>
-                    <a href="#news">THÔNG TIN</a>
-                    <a href="#contact">SỞ THÍCH</a>
-                    <div className="dropdown-mobile">
+                    <a href="#info">THÔNG TIN</a>
+                    <a href="#study">HỌC TẬP</a>
+                    <a href="#skill">KỸ NĂNG</a>
+                    <a href="#another">KHÁC</a>
+                    {/* <div className="dropdown-mobile">
                         <button className="dropbtn-mobile">KHÁC
                         </button>
                         <div className="dropdown-content-mobile">
@@ -40,7 +44,7 @@ class Nav extends React.Component {
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )
