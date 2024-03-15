@@ -6,16 +6,17 @@ class Home extends React.Component {
         return (
             <>
                 <div className="container_home" id="home">
-                    <div className="container_row">
-                        <div className="content_left">
-                            <div className="my_name">My name is Nguyen Hoang Nhan, a Web Developer</div>
-                            <div className="my_style">Tôi là một người không thích lập trình và HOÀNG PHÚC
-                                nhưng vì tương lai phía trước nên tôi phải cố gắng từng ngày để không phụ công ơn
-                                gia đình và bạn bè!!!
-                            </div>
-                        </div>
-                        <div className="content_right">
+                    <div className="container_row_top">
+                        <div className="my_name">Hey, I'm Nguyen Hoang Nhan !</div>
+                        <div className="my_majors">A Web Developer</div>
+                    </div>
+                    <div className="container_row_bottom">
+                        <div className="my_face">
                             <img src="../img/(1).jpg" />
+                        </div>
+                        <div className="my_style">
+                            Tôi có ước mơ trở thành lập trình. Mặc dù bản thân còn nhiều thiếu xót nhưng
+                            tôi đang cố gắng từng ngày để hoàn thành ước mơ!!!
                         </div>
                     </div>
                     <hr id="about"></hr>

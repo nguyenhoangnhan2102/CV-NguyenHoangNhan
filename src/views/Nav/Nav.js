@@ -8,12 +8,7 @@ class Nav extends React.Component {
             <div className="contaier_nav" >
                 <div className="nav_row">
                     <div className="nav_left">
-                        <a >
-                            <img src="../img/hehe.png" />
-                        </a>
-                        <p href="#img">
-                            HOÀNG NHÂN
-                        </p>
+                        Hoàng Nhân
                     </div>
                     <div className="nav_right">
                         <a href="#home" className="active">Trang chủ</a>
