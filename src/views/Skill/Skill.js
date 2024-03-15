@@ -1,5 +1,5 @@
 import React from "react";
-import './Skill.css';
+import './Skill.scss';
 
 class Skill extends React.Component {
     render() {
@@ -51,8 +51,8 @@ class Skill extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <hr id="contact"></hr>
                 </div>
-                {/* <hr></hr> */}
             </>
         )
     }

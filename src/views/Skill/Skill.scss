@@ -1,12 +1,13 @@
 
 .container_skill{
     padding-bottom: 50px;
+    background-color: #997148;
 }
 
 .title_skill{
     padding: 50px;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;          
 }
 
 .container_icon_top{
@@ -34,7 +35,7 @@
     cursor: pointer;
     margin: 20px;
     position: relative;
-    background-color: rgb(129, 129, 129);
+    background-color: #f5ebd3;
     width: 300px;
     height: 200px;
     border: 5px solid black;
@@ -51,11 +52,13 @@
 }
 
 .my_skill:hover{
-    background-color: rgb(113, 110, 110);
+    background-color: rgb(201, 199, 199);
 }
 
-hr{
-    background-color: black;
+.container_skill hr{
+    width: 90%;
+    margin-top: 200px;
     border-color: black;
-    height: 3px;
+    height: 2px;
+    background-color: black;
 }
