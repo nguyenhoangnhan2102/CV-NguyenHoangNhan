@@ -1,18 +1,18 @@
 import React from "react";
 import './Nav.scss';
-import { Navbar } from "react-bootstrap";
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+
 class Nav extends React.Component {
     render() {
         return (
             <div className="contaier_nav" >
                 <div className="nav_row">
                     <div className="nav_left">
-                        Hoàng Nhân
+                        <a>Hoàng Nhân</a>
                     </div>
                     <div className="nav_right">
                         <a href="#home" className="active">Trang chủ</a>
                         <a href="#about">Thông tin</a>
+                        <a href="#eduction">Học vấn</a>
                         <a href="#skill">Kỹ năng</a>
                         <a href="#contact">Liên hệ</a>
                     </div>
@@ -27,6 +27,7 @@ class Nav extends React.Component {
                 <div className="nav_mobile">
                     <a href="#home" className="active">Trang chủ</a>
                     <a href="#about">Thông tin</a>
+                    <a href="#about">Học vấn</a>
                     <a href="#skill">Kỹ năng</a>
                     <a href="#contact">Liên hệ</a>
                 </div>

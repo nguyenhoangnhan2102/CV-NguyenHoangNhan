@@ -6,25 +6,26 @@
   overflow: hidden;
   background-color: #000;
   width: 100%;
-  margin: auto;
+  height: auto;
   z-index: 1;
 }
 
 .nav_row{
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
 .nav_left{
-  width: 25%;
-  font-family: Roboto, sans-serif;
+  width: 35%;
+  float: left;
+  padding: 1%;
+}
+
+.nav_left a{
   font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  padding: 2%;
+  font-family: Roboto, sans-serif;
 }
 
 
@@ -124,7 +125,7 @@
       display: none;
     }
     .contaier_nav{
-      width: 80%;
+      width: 100%;
     }
   }
 

@@ -10,6 +10,11 @@ html {
   text-align: center;
 }
 
+.dsadd{
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,13 +26,19 @@ html {
   }
 }
 
+// .education{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
 .App-header {
   background-color: #000;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   height: auto;
