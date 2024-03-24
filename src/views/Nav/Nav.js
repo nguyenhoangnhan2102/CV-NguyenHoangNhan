@@ -11,8 +11,7 @@ class Nav extends React.Component {
                     </div>
                     <div className="nav_right">
                         <a href="#home" className="active">Trang chủ</a>
-                        <a href="#about">Thông tin</a>
-                        <a href="#eduction">Học vấn</a>
+                        <a href="#education">Học vấn</a>
                         <a href="#skill">Kỹ năng</a>
                         <a href="#contact">Liên hệ</a>
                     </div>
@@ -26,12 +25,13 @@ class Nav extends React.Component {
                 <label htmlFor="show-nav-mobile" className="nav-overlay"></label>
                 <div className="nav_mobile">
                     <a href="#home" className="active">Trang chủ</a>
-                    <a href="#about">Thông tin</a>
-                    <a href="#about">Học vấn</a>
+                    <a href="#education">Học vấn</a>
                     <a href="#skill">Kỹ năng</a>
                     <a href="#contact">Liên hệ</a>
                 </div>
             </div>
+
+
         )
     }
 }

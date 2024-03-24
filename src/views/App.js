@@ -1,9 +1,11 @@
 
 import './App.scss';
-import Nav from './Nav/Nav';
+import Contact from './Contact/Contact';
+import Education from './Education/Education';
 import Home from './Home/Home';
-import Footer from './Footer/Footer';
+import Nav from './Nav/Nav';
 import Skill from './Skill/Skill';
+
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
       <header className="App-header">
         <Nav />
         <Home />
+        <Education />
         <Skill />
-        <Footer />
+        <Contact />
       </header>
     </div>
   );

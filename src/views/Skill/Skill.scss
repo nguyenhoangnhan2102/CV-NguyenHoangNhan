@@ -1,64 +1,76 @@
-
-.container_skill{
-    padding-bottom: 50px;
-    background-color: #997148;
+.skill_container{
+    width: 100%;
+    height: 90rem;
 }
 
 .title_skill{
-    padding: 50px;
-    font-size: 50px;
-    font-family: Roboto, sans-serif;          
+    margin-bottom: 7rem;
+   
 }
 
-.container_icon_top{
-    justify-content: center;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.container_icon_bottom{
-    justify-content: center;
-    display: flex;
-}
-
-.container_icon{
-    justify-content: center;
+.title_skill h1{
+    font-size: 4rem;
 }
 
 .my_skill img{
-    padding: 10px;
-    height: 150px;
-    width: 150px;
+    width: 8rem;
+    height: 8rem;
+}
+
+.skill_row{
+    justify-content: center;
+    align-items: center;
 }
 
 .my_skill{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin: 6px;
     cursor: pointer;
-    margin: 20px;
-    position: relative;
-    background-color: #f5ebd3;
-    width: 300px;
-    height: 200px;
-    border: 5px solid black;
-    border-radius: 5px;
-}
 
-.name_tool{
-    position: absolute;
-    color: black;
-    bottom: 5px;
-    left: 0;
-    right: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    .name_skill{
+        font-size: 20px;
+    }
 }
 
 .my_skill:hover{
-    background-color: rgb(201, 199, 199);
+    background-color: rgb(39, 41, 39);
 }
 
-.container_skill hr{
-    width: 90%;
-    margin-top: 200px;
-    border-color: black;
-    height: 2px;
-    background-color: black;
+.my_project_container{
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_project{
+    height: 500px;
+    background-color: rgb(16, 15, 15);
+    margin: 2rem;
+}
+
+.my_project img{
+    margin-top: 1rem;
+    height: 150px;
+    width: 100%;
+}
+
+.my_project h3{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    text-align: left;
+}
+
+.my_project p{
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: rgb(172, 173, 173);
+}
+
+.my_project_row{
+    text-align: left;
 }
