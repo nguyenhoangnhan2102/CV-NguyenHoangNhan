@@ -1,0 +1,54 @@
+
+//Tablet
+@media only screen and (max-width: 768px) {
+        .education_row{
+            display: block;
+        
+            .education_left{
+              width: 100%;
+            }
+          
+            .education_right{
+              margin-top: 2rem;
+              width: 100%;
+        
+              .title{
+                margin-left: 0;
+                width: 45%;
+              }
+            }        
+    }  
+  }
+  
+  //Mobile
+  @media only screen and (max-width: 480px) {
+    .education_container{
+        margin-top: 2rem;
+
+        .education_row{
+            display: block;
+        
+            .education_left{
+              width: 100%;
+            }
+        
+            .education_left h1{
+              font-size: 30px;
+            }
+          
+            .education_right{
+              margin-top: 1rem;
+              width: 100%;
+        
+              .title{
+                width: 42%;
+                margin-bottom: 10px;
+              }
+        
+              .title h4{
+                font-size: 20px;
+              }
+            }
+          }
+    }   
+}

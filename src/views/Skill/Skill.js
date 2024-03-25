@@ -66,8 +66,8 @@ class Skill extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div id="contact"></div>
             </div>
-
         )
     }
 }

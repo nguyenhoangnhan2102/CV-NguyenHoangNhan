@@ -1,26 +1,28 @@
 import React from "react";
 import './Home.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './HomeResponsive.scss';
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="container_home">
+            <div className="container_home" id="home">
                 <div className="container">
-                    <div className="row_top d-block">
-                        <div className="my_name col-12">
-                            Hey, I'm Nguyen Hoang Nhan !
+                    <div className="row_top ">
+                        <div className="my_name">
+                            <p>Hey, I'm Nguyen Hoang Nhan !</p>
                         </div>
-                        <div className="my_major col-12">
-                            A Web Developer
+                        <div className="my_major ">
+                            <p>A Web Developer</p>
                         </div>
                     </div>
-                    <div className="row_bottom d-flex">
-                        <div className="avatar col-2">
+                    <div className="row_bottom">
+                        <div className="avatar">
                             <img src="../img/(1).jpg" />
                         </div>
-                        <div className="my_style col-10">
-                            Một lập trình viên website tay mơ. Đang cố gắng từng ngày để không phụ công ơn nuôi dạy của gia đình và bạn bè!!!
+                        <div className="my_style">
+                            <p>Một lập trình viên website tay mơ. Đang cố gắng từng ngày
+                                để không phụ công ơn nuôi dạy của gia đình và bạn bè!!!
+                            </p>
                         </div>
                     </div>
                 </div>

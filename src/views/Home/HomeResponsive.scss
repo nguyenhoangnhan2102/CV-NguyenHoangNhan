@@ -1,0 +1,34 @@
+//Tablet
+@media only screen and (max-width: 768px) {
+
+    .container_home{
+        height: 400px;
+        margin-top: 10rem;
+
+        .my_name p{
+            font-size: 50px;
+        }
+    
+        .my_major p{
+            font-size: 25px;
+        }
+    
+        .row_bottom{
+            display: block;
+        }
+    
+        .avatar img{
+            display: none;
+        }
+    
+        .my_style{
+            width: 100%;
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+//Mobile
+@media only screen and (max-width: 480px) {
+    
+}

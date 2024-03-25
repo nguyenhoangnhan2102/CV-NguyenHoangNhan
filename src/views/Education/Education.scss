@@ -1,0 +1,38 @@
+.education_container{
+    height: 500px;
+}
+
+.education_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.education_left{
+    text-align: left;
+    width: 20%;
+}
+
+.education_right{
+    width: 80%;
+}
+
+.title{
+    text-align: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.title hr{
+    border: 1px solid green;
+    background-color: green;
+    float: left;
+    width: 50%;
+}
+
+.education_left h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}

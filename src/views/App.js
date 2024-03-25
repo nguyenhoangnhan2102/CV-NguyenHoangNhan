@@ -2,6 +2,7 @@
 import './App.scss';
 import Contact from './Contact/Contact';
 import Education from './Education/Education';
+import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import Nav from './Nav/Nav';
 import Skill from './Skill/Skill';
@@ -10,12 +11,13 @@ import Skill from './Skill/Skill';
 function App() {
   return (
     <div className="App">
+      <Nav />
       <header className="App-header">
-        <Nav />
         <Home />
         <Education />
         <Skill />
         <Contact />
+        <Footer />
       </header>
     </div>
   );

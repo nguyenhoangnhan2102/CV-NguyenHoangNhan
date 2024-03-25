@@ -3,6 +3,72 @@
     height: 700px;
 }
 
+.contact_title h2{
+    margin-bottom: 3rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .contact_left h2{
    text-align: left;
+}
+
+.info{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: #9f9e9e;
+}
+
+.info input{
+    width: 200px;
+    border: 1px solid white;
+    display: block;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+
+.info label{
+    text-align: left;
+    font-size: 25px;
+}
+
+.info .message{
+    height: 150px; 
+}
+
+.icon img{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+}
+
+button{
+    cursor: pointer;
+    background-color: #14AF4A;
+    color: white;
+    border-radius: 2%;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: #167236;
+}
+
+.contact_right{
+    margin-left: 8.333333%;
+}
+
+.contact_right h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.contact_right p {
+    text-align: left;
+    color: #9f9e9e;
+    font-size: 20px;
 }

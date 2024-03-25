@@ -2,10 +2,10 @@
 .container_home{
     background-color: #000;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 15rem;
 }
 
-.my_name{
+.my_name p{
     text-align: left;
     font-family: "Open Sans", sans-serif;
     font-size: 70px;
@@ -15,6 +15,11 @@
     text-align: left;
     color: #9f9e9e;
     font-size: 30px;
+}
+
+.avatar{
+    text-align: left;
+    width: 20%;
 }
 
 .avatar img{
@@ -28,6 +33,7 @@
 }
 
 .my_style{
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,25 +42,6 @@
     color: #9f9e9e;
 }
 
-.title{
-    text-align: left;
-    margin-bottom: 50px;
+.row_bottom{
+    display: flex;
 }
-
-.title p{
-    align-items: left;
-}
-
-.title hr{
-    border: 1px solid green;
-    background-color: green;
-    float: left;
-    width: 70%;
-}
-
-.education_left h1{
-    font-family: "Open Sans", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-}
-
