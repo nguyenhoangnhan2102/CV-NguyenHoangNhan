@@ -10,7 +10,7 @@ import Skill from './Skill/Skill';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Nav />
       <header className="App-header">
         <Home />

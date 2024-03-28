@@ -5,7 +5,7 @@ import './HomeResponsive.scss';
 class Home extends React.Component {
     render() {
         return (
-            <div className="container_home" id="home">
+            <div className="container_home">
                 <div className="container">
                     <div className="row_top ">
                         <div className="my_name">

@@ -7,7 +7,7 @@ class Nav extends React.Component {
             <div className="container_nav" >
                 <div className="nav_row">
                     <div className="nav_left">
-                        <a>Hoàng Nhân</a>
+                        <a href="#home">Hoàng Nhân</a>
                     </div>
                     <div className="nav_right">
                         <a href="#home" className="active">Trang chủ</a>

@@ -25,12 +25,14 @@
 }
 
 .nav_left a{
+  text-decoration: none;
+  color: white;
   font-size: 30px;
   font-family: Roboto, sans-serif;
 }
 
 
-.nav_left:hover{
+.nav_left a:hover{
   color: rgb(1, 167, 1);
   cursor: pointer;
 }

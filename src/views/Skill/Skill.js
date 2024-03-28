@@ -6,8 +6,8 @@ class Skill extends React.Component {
     render() {
         return (
             <div className="skill_container">
-                <div className="container">
-                    <div className="title_skill">
+                <div className="container_top container">
+                    <div className="title_skill row">
                         <h1>KỸ NĂNG</h1>
                     </div>
                     <div className="skill_row row">
@@ -36,35 +36,45 @@ class Skill extends React.Component {
                             <p className="name_skill">MySQL</p>
                         </div>
                     </div>
-                    <div className="my_project_container">
-                        <div className="my_project_row">
-                            <h1>DỰ ÁN</h1>
+                </div>
+                <div className="container_bottom container">
+                    <div className="my_project row">
+                        <div className="title_project">
+                            <h4>DỰ ÁN</h4>
                         </div>
-                        {/* <div className="skill_row row"> */}
-                        <div className="my_project_deltail container">
-                            <div className="my_project">
+                        <div className="container_project">
+                            <div className="content_project">
                                 <img src="../img/What.jpg" />
                                 <h3>Xây dựng website bán điện thoại</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam erat
-                                    , sed diam voluptua.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr,
+                                    sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat,
+                                    sed diam voluptua.
+                                </p>
                             </div>
-                            <div className="my_project">
+                            <div className="content_project">
                                 <img src="../img/What.jpg" />
                                 <h3>Xây dựng website bán điện thoại</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam erat
-                                    , sed diam voluptua.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr,
+                                    sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat,
+                                    sed diam voluptua.
+                                </p>
                             </div>
-                            <div className="my_project">
+                            <div className="content_project">
                                 <img src="../img/What.jpg" />
                                 <h3>Xây dựng website bán điện thoại</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam erat
-                                    , sed diam voluptua.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr,
+                                    sed diam nonumy eirmod tempor
+                                    invidunt ut labore et dolore magna aliquyam erat,
+                                    sed diam voluptua.
+                                </p>
                             </div>
                         </div>
                     </div>
