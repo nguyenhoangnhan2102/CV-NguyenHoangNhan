@@ -7,7 +7,7 @@ class Skill extends React.Component {
         return (
             <div className="skill_container">
                 <div className="container_top container">
-                    <div className="title_skill row">
+                    <div className="title_skill">
                         <h1>KỸ NĂNG</h1>
                     </div>
                     <div className="skill_row row">

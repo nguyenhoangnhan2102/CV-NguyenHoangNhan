@@ -129,9 +129,7 @@
     .nav_row{
       display: none;
     }
-    .contaier_nav{
-      width: 100%;
-    }
+    
   }
 
 
@@ -141,5 +139,31 @@
   }
   to{
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .container_nav{
+    height: 50px;
+  }
+
+  .nav-btn{
+    float: left;
+  }
+
+  .nav-btn>img{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contaier_nav{
+    width: 80%;
+  }
+
+  .nav-btn{
+    float: left;
   }
 }

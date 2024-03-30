@@ -1,5 +1,26 @@
 //Tablet
 @media only screen and (max-width: 768px) {
+
+    .skill_container{
+        margin-bottom: 200px;
+    }
+
+    .title_project>h4{
+        margin-bottom: 15%;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .title_skill{
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .title_skill>h1{
+        width: 100%;
+    }
+
     .my_project{
         width: 30%;
         margin: 0 auto;
@@ -13,17 +34,112 @@
     .my_project{
         display: flex;
         width: 100%;
-        height: 235px;
+        height: 100px;
         margin-bottom: 2rem;
+
     }
 
     .my_project>img{
         width: 200px;
         height: 200px;
     }
+
+    .container_project{
+        display: block;
+
+        .content_project{
+            width: 100%;
+            height: 270px;
+            margin: 0 0 5% 0;
+        }
+
+        .content_project>img{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+
+        .content_project>h3{
+            margin: 0;
+            padding-top: 4%;
+            width: 95%;
+            font-size: 25px;
+            justify-content: right;
+        }
+
+        .content_project>p{
+            padding-top: 5%;
+            margin: 0;
+            width: 95%;
+            justify-content: right;
+            font-size: 15px;
+        }
+    }
 }
 
 //Mobile
 @media only screen and (max-width: 480px) {
-    
+
+    .skill_container{
+        margin-bottom: 600px;
+
+        .title_skill>h1{
+            font-size: 40px;
+        }
+
+    }
+
+    .my_project {
+        display: block;
+    }
+
+    .container_project{
+        padding-bottom: 200px;
+        display: block;
+
+        .my_project {
+            width: 100%;
+            height: 50px;
+        }
+
+        .title_project>h4{
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: left;
+            font-size: 30px;
+            columns: red;
+        }
+        
+
+        .content_project{
+            width: 100%;
+            height: 150px;
+            margin: 0 0 5% 0;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content_project>img{
+            display: none;
+        }
+
+        .content_project>h3{
+            margin: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            width: 100%;
+            font-size: 23px;
+        }
+
+        .content_project>p{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            margin: 0;
+            width: 100%;
+            font-size: 14px;
+            text-align: left;
+        }
+    }
 }

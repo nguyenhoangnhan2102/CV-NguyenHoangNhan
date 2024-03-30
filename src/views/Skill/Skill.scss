@@ -6,7 +6,7 @@
 .title_skill{
     justify-content: center;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
    
 }
 
@@ -14,8 +14,10 @@
     width: 100%;
 }
 
-.title_skill h1{
-    font-size: 3.5rem;
+.title_skill>h1{
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 .my_skill img{
@@ -32,7 +34,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid green;
-    margin: 6px;
+    margin: 4%;
     cursor: pointer;
 
     .name_skill{
@@ -41,7 +43,7 @@
 }
 
 .my_skill:hover{
-    background-color: rgb(39, 41, 39);
+    background-color:  rgb(10, 26, 10);
 }
 
 .container_bottom{
@@ -64,13 +66,13 @@
     display: flex;
     justify-content: center;
     align-items: left;
-    margin-top: 2;
+    margin-top: 2%;
 
     .content_project{
         width: 30%;
         margin: 3%;
         cursor: pointer;
-        background-color: rgb(80, 75, 75);
+        background-color: rgb(29, 28, 28);
     }
 
     .content_project>img{
