@@ -34,9 +34,9 @@ class Contact extends React.Component {
                         </div>
                         <div className="contact_right">
                             <h2>Get in Touch</h2>
-                            <p>Let’s talk about your project and
-                                how I can help you or if you just want to chat about design and art - shoot
-                                me a message at abcxmple@gmail.com
+                            <p>Let’s talk about yourself and
+                                if you have any questions about me, please shoot
+                                me a message at nhnhan2102@gmail.com
                             </p>
                             <div className="icon_row row">
                                 <div className="icon">
@@ -53,8 +53,8 @@ class Contact extends React.Component {
                                 </div>
                                 <div className="icon">
                                     <img src="../img/address.webp" />
-                                    <p>Ấp Sóc Thát, xã Nguyệt Hóa,
-                                        huyện Châu Thành, tỉnh Trà Vinh
+                                    <p>Soc That Province, Village Nguyet Hoa,
+                                        District Chau Thanh, Tra Vinh Province
                                     </p>
                                 </div>
                             </div>

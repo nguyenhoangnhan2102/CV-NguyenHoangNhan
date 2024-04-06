@@ -9,33 +9,33 @@ class Education extends React.Component {
                 <div className="container">
                     <div className="education_row">
                         <div className="education_left">
-                            <h1>HỌC VẤN</h1>
+                            <h1>Education</h1>
                         </div>
                         <div className="education_right">
                             <div className="row justify-content-around">
                                 <div className="title">
-                                    <h4>Trường TH Long Đức C</h4>
+                                    <h4>Long Duc C Primary School</h4>
                                     <p>
                                         2003-2024
                                     </p>
                                     <hr />
                                 </div>
                                 <div className="title">
-                                    <h4>Trường THCS Lý Tự Trọng</h4>
+                                    <h4>Ly Tu Trong Junior High School</h4>
                                     <p>
                                         2003-2024
                                     </p>
                                     <hr />
                                 </div>
                                 <div className="title">
-                                    <h4>Trường THPT Phạm Thái Bường</h4>
+                                    <h4>Pham Thai Buong High School</h4>
                                     <p>
                                         2003-2024
                                     </p>
                                     <hr />
                                 </div>
                                 <div className="title">
-                                    <h4>Trường Đại học Trà Vinh</h4>
+                                    <h4>Tra Vinh University School</h4>
                                     <p>
                                         2003-2024
                                     </p>

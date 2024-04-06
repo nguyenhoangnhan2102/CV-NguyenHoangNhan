@@ -20,8 +20,8 @@ class Home extends React.Component {
                             <img src="../img/(1).jpg" />
                         </div>
                         <div className="my_style">
-                            <p>Một lập trình viên website tay mơ. Đang cố gắng từng ngày
-                                để không phụ công ơn nuôi dạy của gia đình và bạn bè!!!
+                            <p>I am a young Web Developer, born in 2003.
+                                I am nurturing the dream of becoming a professional Web Developer!!!
                             </p>
                         </div>
                     </div>

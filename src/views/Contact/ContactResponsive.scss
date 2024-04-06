@@ -118,6 +118,32 @@
             font-size: 15px;
             margin-bottom: 0;
         }
+
+        .message{
+            padding-bottom: 60px;
+        }
     }
 
+}
+
+@media only screen and (max-width: 380px){
+
+    .contact_container{
+        height: 800px;
+    }
+    .contact_row .info > input{
+        height: 40px;
+    }
+
+    .message{
+        padding-bottom: 100px;
+    }
+    
+    .contact_row .contact_right > p{
+        font-size: 15px;
+    }
+
+    .contact_row .icon > p{
+        font-size: 13px;
+    }
 }

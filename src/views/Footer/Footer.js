@@ -7,8 +7,8 @@ class Footer extends React.Component {
             <div className="footer_container">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
-                            Copyright &copy; 2024 a hugo theme by NguyenHoangNhan
+                        <div className="footer col-12">
+                            <p>Copyright &copy; 2024 a hugo theme by NguyenHoangNhan</p>
                         </div>
                     </div>
                 </div>

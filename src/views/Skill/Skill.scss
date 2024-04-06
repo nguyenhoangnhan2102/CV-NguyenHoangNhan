@@ -17,7 +17,6 @@
 .title_skill>h1{
     font-size: 50px;
     font-family: "Open Sans", sans-serif;
-    font-weight: bold;
 }
 
 .my_skill img{
@@ -55,9 +54,8 @@
     align-items: center;
     
 
-    .title_project>h4{
+    .title_project>h1{
         font-size: 50px;
-        font-weight: bold;
     }
 }
 
@@ -82,6 +80,7 @@
     }
 
     .content_project>h3{
+        font-size: 25px;
         margin: 5%;
         width: 90%;
         text-align: left;

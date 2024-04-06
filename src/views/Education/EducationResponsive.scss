@@ -7,6 +7,10 @@
             .education_left{
               width: 100%;
             }
+
+            .education_left > h1{
+              font-size: 40px;
+            }
           
             .education_right{
               margin-top: 2rem;
@@ -51,4 +55,20 @@
             }
           }
     }   
+}
+
+@media only screen and (max-width: 380px){
+  .education_container{ 
+    
+    .education_row{
+
+      .education_left h1{
+        font-size: 30px;
+      }
+
+      .education_right .title>h4,p{
+        font-size: 15px;   
+      }
+    }
+}
 }

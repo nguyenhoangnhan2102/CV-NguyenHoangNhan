@@ -1,14 +1,23 @@
+
+@media only screen and (max-width: 375px){
+    .container_project{
+        margin-bottom: 50px;
+    }
+}
 //Tablet
 @media only screen and (max-width: 768px) {
 
     .skill_container{
-        margin-bottom: 200px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .title_project>h4{
-        margin-bottom: 15%;
-        text-align: left;
+    
+
+    .title_skill>h1{
         font-size: 40px;
+        width: 100%;
     }
 
     .title_skill{
@@ -17,13 +26,15 @@
         margin-bottom: 5%;
     }
 
-    .title_skill>h1{
-        width: 100%;
-    }
-
     .my_project{
         width: 30%;
         margin: 0 auto;
+
+        .title_project>h1{
+            margin-bottom: 15%;
+            text-align: left;
+            font-size: 40px;
+        }
     }
 
     .my_project_deltail{
@@ -49,13 +60,14 @@
 
         .content_project{
             width: 100%;
-            height: 270px;
-            margin: 0 0 5% 0;
+            height: 220px;
+            margin: 0;
+            margin-bottom: 2%;
         }
 
         .content_project>img{
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             float: left;
         }
 
@@ -74,6 +86,10 @@
             justify-content: right;
             font-size: 15px;
         }
+    }
+
+    .contact_div{
+        margin-top: 200px;
     }
 }
 
@@ -141,5 +157,27 @@
             font-size: 14px;
             text-align: left;
         }
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .skill_container .title_skill > h1{
+        font-size: 30px;
+    }
+
+    .my_project .title_project > h1{
+        font-size: 30px;
+    }
+
+    .container_project .content_project > h3{
+        font-size: 20px;
+    }
+
+    .container_project .content_project > p{
+        font-size: 13px;
+    }
+
+    .skill_container{
+        margin-bottom: 500px;
     }
 }

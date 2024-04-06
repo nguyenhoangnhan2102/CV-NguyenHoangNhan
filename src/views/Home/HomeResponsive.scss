@@ -40,3 +40,29 @@
         text-align: left;
     }
 }
+
+@media only screen and (max-width: 380px){
+    .container_home{
+       height: 300px;
+
+       .row_top {
+        margin-bottom: 50px;
+
+
+        .my_name>p{
+            font-size: 25px;
+        }
+
+        .my_major>p{
+            font-size: 18px;
+        }
+     }
+
+        .row_bottom{
+
+            .my_style>p{
+                margin-bottom: 50px;
+            }
+        }    
+    } 
+}

@@ -13,13 +13,13 @@
 }
 
 .contact_right{
-    width: 50%;
+    margin-left: 15%;
+    width: 35%;
 }
 
 .contact_title h2{
     margin-bottom: 3rem;
     font-size: 40px;
-    font-weight: bold;
 }
 
 .contact_left h2{
@@ -41,16 +41,18 @@
     background-color: black;
     font-size: 20px;
     color: white;
+    font-size: 20px;
 }
 
 .info label{
     text-align: left;
     width: 100%;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .info .message{
-    height: 150px; 
+    height: 150px;
+    padding-bottom: 100px; 
 }
 
 .icon img{
@@ -77,8 +79,8 @@ button:hover{
 }
 
 .contact_right h2{
+    text-align: left;
     font-size: 40px;
-    font-weight: bold;
     margin-bottom: 5rem;
 }
 
@@ -94,6 +96,6 @@ button:hover{
     display: flex;  
 }
 
-.message{
-   padding-bottom: 100px;
+.icon>p{
+    font-size: 20px;
 }

@@ -1,11 +1,31 @@
 .footer_container {
-    height: 70px;
-    color: #9f9e9e;
+    height: 50px;
+}
+
+.footer>p{
+    font-size: 20px;
+    color: #7d7d7d;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer>p{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     .footer_container{
-        font-size: 15px;
         height: 50px;
+    }
+
+    .footer>p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 3750px)
+{
+    .footer>p{
+        font-size: 13px;
     }
 }

@@ -7,13 +7,13 @@ class Nav extends React.Component {
             <div className="container_nav" >
                 <div className="nav_row">
                     <div className="nav_left">
-                        <a href="#home">Hoàng Nhân</a>
+                        <a href="#home">Hoang Nhan</a>
                     </div>
                     <div className="nav_right">
-                        <a href="#home" className="active">Trang chủ</a>
-                        <a href="#education">Học vấn</a>
-                        <a href="#skill">Kỹ năng</a>
-                        <a href="#contact">Liên hệ</a>
+                        <a href="#home" className="active">Home</a>
+                        <a href="#education" className="active">Education</a>
+                        <a href="#skill" className="active">Skill</a>
+                        <a href="#contact" className="active">Contact</a>
                     </div>
                 </div>
                 <label htmlFor="show-nav-mobile" className="nav-btn">
@@ -24,10 +24,10 @@ class Nav extends React.Component {
 
                 <label htmlFor="show-nav-mobile" className="nav-overlay"></label>
                 <div className="nav_mobile">
-                    <a href="#home" className="active">Trang chủ</a>
-                    <a href="#education">Học vấn</a>
-                    <a href="#skill">Kỹ năng</a>
-                    <a href="#contact">Liên hệ</a>
+                    <a href="#home" className="active">Home</a>
+                    <a href="#education">Education</a>
+                    <a href="#skill">Skill</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
 
