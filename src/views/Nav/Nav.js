@@ -7,13 +7,13 @@ class Nav extends React.Component {
             <div className="container_nav" >
                 <div className="nav_row">
                     <div className="nav_left">
-                        <a href="#home">Hoang Nhan</a>
+                        <a href="#home" className="navbar_item">Hoang Nhan</a>
                     </div>
                     <div className="nav_right">
-                        <a href="#home" className="active">Home</a>
-                        <a href="#education" className="active">Education</a>
-                        <a href="#skill" className="active">Skill</a>
-                        <a href="#contact" className="active">Contact</a>
+                        <a href="#home" className="navbar_item">Home</a>
+                        <a href="#education" className="navbar_item">Education</a>
+                        <a href="#skill" className="navbar_item">Skill</a>
+                        <a href="#contact" className="navbar_item">Contact</a>
                     </div>
                 </div>
                 <label htmlFor="show-nav-mobile" className="nav-btn">
