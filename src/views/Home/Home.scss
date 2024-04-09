@@ -5,10 +5,38 @@
     margin-top: 15rem;
 }
 
-.my_name p{
+.my_name>p{
+    position: relative;
     text-align: left;
     font-family: "Open Sans", sans-serif;
     font-size: 60px;
+    width: 87%;
+    color: #252839;
+    -webkit-text-stroke: 3px #fff;
+    text-transform: uppercase;
+}
+
+.my_name>p::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #01fe87;
+    -webkit-text-stroke: 0vw #fff;
+    border-right: 5px solid #01fe87;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{    
+        width: 100%;
+    }
 }
 
 .my_major{
@@ -26,6 +54,19 @@
     height: 150px;
     width: 150px;
     border-radius: 20px !important;
+}
+
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 1.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .row_top{

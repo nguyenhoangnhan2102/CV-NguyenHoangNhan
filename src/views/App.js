@@ -9,6 +9,9 @@ import Skill from './Skill/Skill';
 
 
 function App() {
+  // window.onload = function () {
+  //   window.scrollTo(0, 0);
+  // }
   return (
     <div className="App" id="home">
       <Nav />

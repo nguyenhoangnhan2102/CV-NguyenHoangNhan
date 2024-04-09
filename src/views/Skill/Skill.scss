@@ -22,6 +22,7 @@
 .my_skill img{
     width: 8rem;
     height: 8rem;
+    animation-delay: 5s;
 }
 
 .skill_row{
@@ -35,6 +36,7 @@
     border: 2px solid green;
     margin: 4%;
     cursor: pointer;
+
 
     .name_skill{
         font-size: 20px;
@@ -56,6 +58,19 @@
 
     .title_project>h1{
         font-size: 50px;
+    }
+}
+
+.animat{
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: moveup 1.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
 
