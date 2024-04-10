@@ -56,19 +56,6 @@
     border-radius: 20px !important;
 }
 
-.animation{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: moveup 1.5s linear forwards;
-}
-
-@keyframes moveup{
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
 .row_top{
     margin-bottom: 100px;
 }

@@ -61,57 +61,61 @@
     }
 }
 
-.animat_right{
-    opacity: 0;
-    transform: translateX(-100px);
-    animation: moveright 1.5s linear forwards;
+.container_project .content_project:hover{
+    background-color: rgba(119, 120, 119, 0.552);
 }
 
-@keyframes moveright{
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
+// .animat_right{
+//     opacity: 0;
+//     transform: translateX(-100px);
+//     animation: moveright 1.5s linear forwards;
+// }
 
-.animat_left{
-    opacity: 0;
-    transform: translateX(100px);
-    animation: moveleft 1.5s linear forwards;
-}
+// @keyframes moveright{
+//     100%{
+//         opacity: 1;
+//         transform: translateX(0px);
+//     }
+// }
 
-@keyframes moveleft{
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
+// .animat_left{
+//     opacity: 0;
+//     transform: translateX(100px);
+//     animation: moveleft 1.5s linear forwards;
+// }
 
-.animat_down{
-    opacity: 0;
-    transform: translateY(-30px);
-    animation: movedown 1.5s linear forwards;
-}
+// @keyframes moveleft{
+//     100%{
+//         opacity: 1;
+//         transform: translateX(0px);
+//     }
+// }
 
-@keyframes movedown{
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
+// .animat_down{
+//     opacity: 0;
+//     transform: translateY(-30px);
+//     animation: movedown 1.5s linear forwards;
+// }
 
-.animat_up{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: moveup 1.5s linear forwards;
-}
+// @keyframes movedown{
+//     100%{
+//         opacity: 1;
+//         transform: translateY(0px);
+//     }
+// }
 
-@keyframes moveup{
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
+// .animat_up{
+//     opacity: 0;
+//     transform: translateY(30px);
+//     animation: moveup 1.5s linear forwards;
+// }
+
+// @keyframes moveup{
+//     100%{
+//         opacity: 1;
+//         transform: translateY(0px);
+//     }
+// }
 
 .container_project{
     width: 100%;
@@ -125,6 +129,7 @@
         margin: 3%;
         cursor: pointer;
         background-color: rgb(29, 28, 28);
+        border: 3px solid #55e6a5;
     }
 
     .content_project>img{
