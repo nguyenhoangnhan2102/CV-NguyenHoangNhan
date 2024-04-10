@@ -4,6 +4,34 @@ import './HomeResponsive.scss';
 
 class Home extends React.Component {
     render() {
+        // function isElementInViewport(el) {
+        //     var rect = el.getBoundingClientRect();
+        //     return (
+        //         rect.top >= 0 &&
+        //         rect.left >= 0 &&
+        //         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        //         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        //     );
+        // }
+
+        // function handleScrollAnimation() {
+        //     var elementsToAnimate = document.querySelectorAll('.animation');
+        //     elementsToAnimate.forEach(function (element) {
+        //         if (isElementInViewport(element)) {
+        //             element.classList.add('animate');
+        //         }
+        //     });
+        // }
+
+        // document.addEventListener('scroll', function () {
+        //     handleScrollAnimation();
+        // });
+
+        // // Trigger animation on page load if elements are already in viewport
+        // window.addEventListener('DOMContentLoaded', function () {
+        //     handleScrollAnimation();
+        // });
+
         return (
             <div className="container_home">
                 <div className="container">

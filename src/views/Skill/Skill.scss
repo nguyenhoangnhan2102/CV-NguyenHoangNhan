@@ -61,16 +61,55 @@
     }
 }
 
-.animat{
+.animat_right{
     opacity: 0;
     transform: translateX(-100px);
+    animation: moveright 1.5s linear forwards;
+}
+
+@keyframes moveright{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.animat_left{
+    opacity: 0;
+    transform: translateX(100px);
+    animation: moveleft 1.5s linear forwards;
+}
+
+@keyframes moveleft{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.animat_down{
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: movedown 1.5s linear forwards;
+}
+
+@keyframes movedown{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animat_up{
+    opacity: 0;
+    transform: translateY(30px);
     animation: moveup 1.5s linear forwards;
 }
 
 @keyframes moveup{
     100%{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
 }
 
